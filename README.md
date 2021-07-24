@@ -28,6 +28,9 @@ Based on the geographic map, recommend a firewall rule that the networking team 
 Provide a "plain english" description of the rule.
 For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 Provide a screen shot of the geographic map that justifies why you created this rule.
+[
+![geo](https://user-images.githubusercontent.com/77302201/126853067-6ed300fe-54eb-475a-9104-3a348bce4d91.png)
+](url)
 Question 2
 VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
 
