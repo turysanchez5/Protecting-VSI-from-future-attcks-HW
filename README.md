@@ -23,10 +23,13 @@ What sort of mitigation could you use to protect against this?
 Secure wireless networks, this mitigation can block unverified users to try any login attempts on the machine.
 
 Part 2: Apache Webserver Attack:
+
 Question 1
 Based on the geographic map, recommend a firewall rule that the networking team should implement.
 Provide a "plain english" description of the rule.
-For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+
+Windows comes with a built in firewall which allows to block all incoming traffic unless on the list(whitelist) and vise versa with outgoing traffic unless it is in the list(blacklist). 
+
 Provide a screen shot of the geographic map that justifies why you created this rule.
 [
 ![geo](https://user-images.githubusercontent.com/77302201/126853067-6ed300fe-54eb-475a-9104-3a348bce4d91.png)
@@ -36,11 +39,6 @@ VSI has insider information that JobeCorp will launch the same webserver attack 
 
 What other rules can you create to protect VSI from attacks against your webserver?
 
-Conceive of two more rules in "plain english".
-Hint: Look for other fields that indicate the attacker.
-Guidelines for your Submission:
-In a word document, provide the following:
+Keep your software up to date which will patch outdated software. This will help remove critical vulnerabilities that hackers will try to access. 
 
-Answers for all questions.
-Screenshots where indicated
-Submit your findings in BootCampSpot!
+
